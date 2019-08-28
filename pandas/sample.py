@@ -7,3 +7,14 @@ df.info()
 
 df.query('Income > 10000').plot(kind = 'scatter' , x = 'sno' , y = 'Income')
 
+df.mean(0)
+
+df.mean(1)
+
+df.sum(0 , skipna = False)
+
+df.sum(0 , skipna = 'True')
+
+df.sum(1 , skipna = False)
+
+df.sum(1 , skipna = 'True')
