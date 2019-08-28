@@ -28,3 +28,9 @@ import numpy as np
 data = np.random.randint(100 , 200 , size = 10)
 
 print(data)
+
+import pandas as pd
+pd.Series(data).value_counts()
+
+import pandas as pd
+pd.Series(data).mode()
