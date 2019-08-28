@@ -34,3 +34,6 @@ pd.Series(data).value_counts()
 
 import pandas as pd
 pd.Series(data).mode()
+
+k = pd.Series(['a' , 'b' , 'c' , np.nan , 'd'])
+k.describe(include=['number'])
