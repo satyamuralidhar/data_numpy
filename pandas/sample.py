@@ -20,33 +20,11 @@ df.sum(1 , skipna = False)
 df.sum(1 , skipna = 'True')
 
 df.describe()
-output:
-  
-sno
-Income
-count
-10.00000
-10.000000
-mean
-4.50000
-30000.000000
-std
-3.02765
-18856.180832
-min
-0.00000
-10000.000000
-25%
-2.25000
-20000.000000
-50%
-4.50000
-25000.000000
-75%
-6.75000
-37500.000000
-max
-9.00000
-70000.000000
+
+df.describe(percentiles = [.25 , .85 , .99])
 
 
+import numpy as np
+data = np.random.randint(100 , 200 , size = 10)
+
+print(data)
