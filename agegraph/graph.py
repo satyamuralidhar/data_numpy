@@ -11,6 +11,8 @@ data = {
 
 df = pd.DataFrame(data)
 
+df
+
 scatter plot:
 
 import matplotlib.pyplot as plt
