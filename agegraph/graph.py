@@ -13,7 +13,7 @@ df = pd.DataFrame(data)
 
 df
 
-scatter plot:
+#scatter plot:
 
 import matplotlib.pyplot as plt
 sns.FacetGrid(data = df , hue = 'Name' , size = 8).map(plt.scatter , 'Age' ,'Department').add_legend()
@@ -21,7 +21,7 @@ plt.show()
 
 
 
-bar plot:
+#bar plot:
 
 import matplotlib.pyplot as plt
 sns.FacetGrid(data = df , hue = 'Name' , size = 8).map(plt.bar , 'Age' ,'Department').add_legend()
